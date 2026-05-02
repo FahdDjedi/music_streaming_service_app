@@ -1,0 +1,29 @@
+name: music_streaming_service_app
+description: Spotify-inspired secure music streaming app for coursework.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.5.0
+  local_auth: ^2.3.0
+  just_audio: ^0.9.42
+  flutter_background_service: ^5.0.10
+  fl_chart: ^0.69.0
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

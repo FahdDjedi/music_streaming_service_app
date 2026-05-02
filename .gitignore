@@ -1,0 +1,41 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+.pub-cache/
+build/
+coverage/
+ios/Flutter/.last_build_id
+
+# Android / IntelliJ / VSCode
+*.iml
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+local.properties
+
+# macOS / iOS
+**/Pods/
+**/.symlinks/
+**/DerivedData/
+
+# Firebase / secrets
+google-services.json
+GoogleService-Info.plist
+firebase_app_id_file.json
+
+# Environment and local files
+.env
+.env.*
+*.log
+
+# Python virtual environment (for helper scripts/tools if needed)
+.venv/
+venv/
+
+# System
+.DS_Store
+Thumbs.db
